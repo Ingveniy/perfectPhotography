@@ -1,0 +1,189 @@
+body {
+  .header-banner-block {
+    height: 1055px;
+    background-repeat: no-repeat;
+    background-color: rgba(16, 0, 0, 0.21);
+    background-size: 100%;
+    background-position-y: -135px;
+    background-image: url("../img/banner_image.png");
+    header {
+      padding-top: 25px;
+      padding-left: 50px;
+      padding-right: 50px;
+      .title-block {
+        a {
+          color: #f5a22c;
+          font-family: "Damion-Regular";
+          font-size: 49px;
+          font-weight: 400;
+          line-height: 35.14px;
+          &:hover,
+          &:active,
+          &:focus {
+            color: #f5a22c;
+            text-decoration: none;
+          }
+        }
+      }
+      nav {
+        background-color: rgba(0, 0, 0, 0.62);
+        ul {
+          display: flex;
+          justify-content: space-around;
+          min-width: 600px;
+          min-height: 90px;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin: 0px;
+          align-items: center;
+          li {
+            list-style: none;
+            display: inline-block;
+            a {
+              color: #ffffff;
+              font-family: "JosefinSlab-Light";
+              font-size: 19px;
+              font-weight: 700;
+              line-height: 27px;
+              text-transform: uppercase;
+              text-decoration: none;
+              &:hover,
+              &:active,
+              &:focus {
+                color: #f5a22c;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    .banner-content-block {
+      .socials-block {
+        width: 91px;
+        height: 371px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.62);
+        a {
+          color: #ffffff;
+          font-size: 23px;
+          font-weight: 400;
+          line-height: 59px;
+          &:hover,
+          &:active,
+          &:focus {
+            color: #f5a22c;
+            text-decoration: none;
+          }
+        }
+      }
+      .banner-content {
+        .banner-main {
+          .banner-title {
+            color: #f5a22c;
+            font-family: "JosefinSlab-Regular";
+            font-size: 73px;
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+          .banner-subtitle {
+            color: #ffffff;
+            font-family: "JosefinSlab-SemiBold";
+            font-size: 56px;
+            font-weight: 400;
+            text-transform: uppercase;
+          }
+          .banner-text {
+            color: #ffffff;
+            font-family: "JosefinSlab-Regular";
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 36px;
+          }
+        }
+        .contact-us-btn {
+          background-color: #f5a22c;
+          color: #ffffff;
+          font-family: "JosefinSlab-Regular";
+          font-size: 18px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+      .right-text {
+        opacity: 0.07;
+        color: #ffffff;
+        font-family: "AlfaSlabOne-Regular";
+        font-size: 146px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+@font-face {
+  font-family: "Damion-Regular";
+  src: url("../fonts/Damion-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "JosefinSlab-Regular";
+  src: url("../fonts/JosefinSlab-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "JosefinSlab-Bold";
+  src: url("../fonts/JosefinSlab-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "JosefinSlab-BoldItalic";
+  src: url("../fonts/JosefinSlab-BoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "JosefinSlab-Italic";
+  src: url("../fonts/JosefinSlab-Italic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "JosefinSlab-Light";
+  src: url("../fonts/JosefinSlab-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "JosefinSlab-LightItalic";
+  src: url("../fonts/JosefinSlab-LightItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "JosefinSlab-SemiBold";
+  src: url("../fonts/JosefinSlab-SemiBold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "AlfaSlabOne-Regular";
+  src: url("../fonts/AlfaSlabOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
