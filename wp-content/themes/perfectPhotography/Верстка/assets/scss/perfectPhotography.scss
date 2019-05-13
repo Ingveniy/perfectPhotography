@@ -1,22 +1,24 @@
 body {
+  max-width: 1790px;
   .header-banner-block {
     height: 1055px;
     background-repeat: no-repeat;
     background-color: rgba(16, 0, 0, 0.21);
     background-size: 100%;
-    background-position-y: -135px;
+    background-position-y: -169px;
+    padding-left: 90px;
+    padding-right: 115px;
+    padding-top: 25px;
     background-image: url("../img/banner_image.png");
-    header {
-      padding-top: 25px;
-      padding-left: 50px;
-      padding-right: 50px;
+
       .title-block {
+        padding-left: 60px;
+        padding-top: 25px;
         a {
           color: #f5a22c;
           font-family: "Damion-Regular";
           font-size: 49px;
           font-weight: 400;
-          line-height: 35.14px;
           &:hover,
           &:active,
           &:focus {
@@ -26,12 +28,15 @@ body {
         }
       }
       nav {
+        padding-right: 115px;
         background-color: rgba(0, 0, 0, 0.62);
+        width: 725px;
+        margin-left: 76px;
+
         ul {
           display: flex;
           justify-content: space-around;
-          min-width: 600px;
-          min-height: 90px;
+          min-height: 110px;
           padding-left: 20px;
           padding-right: 20px;
           margin: 0px;
@@ -42,9 +47,8 @@ body {
             a {
               color: #ffffff;
               font-family: "JosefinSlab-Light";
-              font-size: 19px;
+              font-size: 21px;
               font-weight: 700;
-              line-height: 27px;
               text-transform: uppercase;
               text-decoration: none;
               &:hover,
@@ -57,9 +61,11 @@ body {
           }
         }
       }
-    }
     .banner-content-block {
+      margin-top: 200px;
       .socials-block {
+        padding-bottom: 33px;
+        padding-top: 40px;
         width: 91px;
         height: 371px;
         display: flex;
@@ -81,12 +87,16 @@ body {
         }
       }
       .banner-content {
+        padding-right: 125px;
         .banner-main {
+          text-align: right;
           .banner-title {
             color: #f5a22c;
             font-family: "JosefinSlab-Regular";
-            font-size: 73px;
+            font-size: 74px;
             font-weight: 700;
+            padding-top: 27px;
+            line-height: 28px;
             text-transform: uppercase;
           }
           .banner-subtitle {
@@ -101,25 +111,47 @@ body {
             font-family: "JosefinSlab-Regular";
             font-size: 25px;
             font-weight: 400;
-            line-height: 36px;
+            line-height: 39px;
+            padding-top: 10px;
           }
         }
         .contact-us-btn {
+          width: 188px;
+          height: 43px;
           background-color: #f5a22c;
           color: #ffffff;
           font-family: "JosefinSlab-Regular";
           font-size: 18px;
           font-weight: 700;
           text-transform: uppercase;
+          float: right;
+          border-radius: 22px;
+          padding: 3px;
+          margin-top: 15px;
+          padding-left: 20px;
+          i {
+          color: #f5a22c;
+          background-color: #ffffff;
+          border-radius: 20px;
+          padding-right: 14px;
+          padding-top: 9px;
+          padding-bottom: 9px;
+          padding-left: 13px;
+          margin-left: 8px;
+          }
         }
       }
       .right-text {
         opacity: 0.07;
         color: #ffffff;
         font-family: "AlfaSlabOne-Regular";
-        font-size: 146px;
+        font-size: 84px;
+        line-height: 14px;
         font-weight: 400;
+        margin-top: 185px;
+        margin-left: -140px;
         text-transform: uppercase;
+        display: inline-block;
       }
     }
   }

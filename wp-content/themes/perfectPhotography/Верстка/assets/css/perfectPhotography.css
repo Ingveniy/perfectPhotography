@@ -1,218 +1,185 @@
-@charset "UTF-8";
-/* line 2, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block {
-  height: 1055px;
-  background-repeat: no-repeat;
-  background-color: rgba(16, 0, 0, 0.21);
-  background-size: 100%;
-  background-position-y: -135px;
-  background-image: url("../img/banner_image.png");
-}
-
-/* line 9, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block header {
-  padding-top: 25px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-/* line 14, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block header .title-block a {
-  color: #f5a22c;
-  font-family: "Damion-Regular";
-  font-size: 49px;
-  font-weight: 400;
-  line-height: 35.14px;
-}
-
-/* line 20, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block header .title-block a:hover, body .header-banner-block header .title-block a:active, body .header-banner-block header .title-block a:focus {
-  color: #f5a22c;
-  text-decoration: none;
-}
-
-/* line 28, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block header nav {
-  background-color: rgba(0, 0, 0, 0.62);
-}
-
-/* line 30, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block header nav ul {
-  display: flex;
-  justify-content: space-around;
-  min-width: 600px;
-  min-height: 90px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0px;
-  align-items: center;
-}
-
-/* line 39, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block header nav ul li {
-  list-style: none;
-  display: inline-block;
-}
-
-/* line 42, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block header nav ul li a {
-  color: #ffffff;
-  font-family: "JosefinSlab-Light";
-  font-size: 19px;
-  font-weight: 700;
-  line-height: 27px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/* line 50, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block header nav ul li a:hover, body .header-banner-block header nav ul li a:active, body .header-banner-block header nav ul li a:focus {
-  color: #f5a22c;
-  text-decoration: none;
-}
-
-/* line 62, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block .banner-content-block .socials-block {
-  width: 91px;
-  height: 371px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.62);
-}
-
-/* line 70, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block .banner-content-block .socials-block a {
-  color: #ffffff;
-  font-size: 23px;
-  font-weight: 400;
-  line-height: 59px;
-}
-
-/* line 75, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block .banner-content-block .socials-block a:hover, body .header-banner-block .banner-content-block .socials-block a:active, body .header-banner-block .banner-content-block .socials-block a:focus {
-  color: #f5a22c;
-  text-decoration: none;
-}
-
-/* line 85, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block .banner-content-block .banner-content .banner-main .banner-title {
-  color: #f5a22c;
-  font-family: "JosefinSlab-Regular";
-  font-size: 73px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-/* line 92, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block .banner-content-block .banner-content .banner-main .banner-subtitle {
-  color: #ffffff;
-  font-family: "JosefinSlab-SemiBold";
-  font-size: 56px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-/* line 99, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block .banner-content-block .banner-content .banner-main .banner-text {
-  color: #ffffff;
-  font-family: "JosefinSlab-Regular";
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 36px;
-}
-
-/* line 107, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block .banner-content-block .banner-content .contact-us-btn {
-  background-color: #f5a22c;
-  color: #ffffff;
-  font-family: "JosefinSlab-Regular";
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-/* line 116, C:/Users/evgen/Downloads/OpenServer/OSPanel/domains/wordpress.test/wp-content/themes/perfectPhotography/Верстка/assets/saas/perfectPhotography.scss */
-body .header-banner-block .banner-content-block .right-text {
-  opacity: 0.07;
-  color: #ffffff;
-  font-family: "AlfaSlabOne-Regular";
-  font-size: 146px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
+body {
+  max-width: 1790px; }
+  body .header-banner-block {
+    height: 1055px;
+    background-repeat: no-repeat;
+    background-color: rgba(16, 0, 0, 0.21);
+    background-size: 100%;
+    background-position-y: -169px;
+    padding-left: 90px;
+    padding-right: 115px;
+    padding-top: 25px;
+    background-image: url("../img/banner_image.png"); }
+    body .header-banner-block .title-block {
+      padding-left: 60px;
+      padding-top: 25px; }
+      body .header-banner-block .title-block a {
+        color: #f5a22c;
+        font-family: "Damion-Regular";
+        font-size: 49px;
+        font-weight: 400; }
+        body .header-banner-block .title-block a:hover, body .header-banner-block .title-block a:active, body .header-banner-block .title-block a:focus {
+          color: #f5a22c;
+          text-decoration: none; }
+    body .header-banner-block nav {
+      padding-right: 115px;
+      background-color: rgba(0, 0, 0, 0.62);
+      width: 725px;
+      margin-left: 76px; }
+      body .header-banner-block nav ul {
+        display: flex;
+        justify-content: space-around;
+        min-height: 110px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+        align-items: center; }
+        body .header-banner-block nav ul li {
+          list-style: none;
+          display: inline-block; }
+          body .header-banner-block nav ul li a {
+            color: #ffffff;
+            font-family: "JosefinSlab-Light";
+            font-size: 21px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none; }
+            body .header-banner-block nav ul li a:hover, body .header-banner-block nav ul li a:active, body .header-banner-block nav ul li a:focus {
+              color: #f5a22c;
+              text-decoration: none; }
+    body .header-banner-block .banner-content-block {
+      margin-top: 200px; }
+      body .header-banner-block .banner-content-block .socials-block {
+        padding-bottom: 33px;
+        padding-top: 40px;
+        width: 91px;
+        height: 371px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.62); }
+        body .header-banner-block .banner-content-block .socials-block a {
+          color: #ffffff;
+          font-size: 23px;
+          font-weight: 400;
+          line-height: 59px; }
+          body .header-banner-block .banner-content-block .socials-block a:hover, body .header-banner-block .banner-content-block .socials-block a:active, body .header-banner-block .banner-content-block .socials-block a:focus {
+            color: #f5a22c;
+            text-decoration: none; }
+      body .header-banner-block .banner-content-block .banner-content {
+        padding-right: 125px; }
+        body .header-banner-block .banner-content-block .banner-content .banner-main {
+          text-align: right; }
+          body .header-banner-block .banner-content-block .banner-content .banner-main .banner-title {
+            color: #f5a22c;
+            font-family: "JosefinSlab-Regular";
+            font-size: 74px;
+            font-weight: 700;
+            padding-top: 27px;
+            line-height: 28px;
+            text-transform: uppercase; }
+          body .header-banner-block .banner-content-block .banner-content .banner-main .banner-subtitle {
+            color: #ffffff;
+            font-family: "JosefinSlab-SemiBold";
+            font-size: 56px;
+            font-weight: 400;
+            text-transform: uppercase; }
+          body .header-banner-block .banner-content-block .banner-content .banner-main .banner-text {
+            color: #ffffff;
+            font-family: "JosefinSlab-Regular";
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 39px;
+            padding-top: 10px; }
+        body .header-banner-block .banner-content-block .banner-content .contact-us-btn {
+          width: 188px;
+          height: 43px;
+          background-color: #f5a22c;
+          color: #ffffff;
+          font-family: "JosefinSlab-Regular";
+          font-size: 18px;
+          font-weight: 700;
+          text-transform: uppercase;
+          float: right;
+          border-radius: 22px;
+          padding: 3px;
+          margin-top: 15px;
+          padding-left: 20px; }
+          body .header-banner-block .banner-content-block .banner-content .contact-us-btn i {
+            color: #f5a22c;
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding-right: 14px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 13px;
+            margin-left: 8px; }
+      body .header-banner-block .banner-content-block .right-text {
+        opacity: 0.07;
+        color: #ffffff;
+        font-family: "AlfaSlabOne-Regular";
+        font-size: 84px;
+        line-height: 14px;
+        font-weight: 400;
+        margin-top: 185px;
+        margin-left: -140px;
+        text-transform: uppercase;
+        display: inline-block; }
 
 @font-face {
   font-family: "Damion-Regular";
   src: url("../fonts/Damion-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
-  font-stretch: normal;
-}
-
+  font-stretch: normal; }
 @font-face {
   font-family: "JosefinSlab-Regular";
   src: url("../fonts/JosefinSlab-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
-  font-stretch: normal;
-}
-
+  font-stretch: normal; }
 @font-face {
   font-family: "JosefinSlab-Bold";
   src: url("../fonts/JosefinSlab-Bold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
-  font-stretch: normal;
-}
-
+  font-stretch: normal; }
 @font-face {
   font-family: "JosefinSlab-BoldItalic";
   src: url("../fonts/JosefinSlab-BoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
-  font-stretch: normal;
-}
-
+  font-stretch: normal; }
 @font-face {
   font-family: "JosefinSlab-Italic";
   src: url("../fonts/JosefinSlab-Italic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
-  font-stretch: normal;
-}
-
+  font-stretch: normal; }
 @font-face {
   font-family: "JosefinSlab-Light";
   src: url("../fonts/JosefinSlab-Light.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
-  font-stretch: normal;
-}
-
+  font-stretch: normal; }
 @font-face {
   font-family: "JosefinSlab-LightItalic";
   src: url("../fonts/JosefinSlab-LightItalic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
-  font-stretch: normal;
-}
-
+  font-stretch: normal; }
 @font-face {
   font-family: "JosefinSlab-SemiBold";
   src: url("../fonts/JosefinSlab-SemiBold.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
-  font-stretch: normal;
-}
-
+  font-stretch: normal; }
 @font-face {
   font-family: "AlfaSlabOne-Regular";
   src: url("../fonts/AlfaSlabOne-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
-  font-stretch: normal;
-}
+  font-stretch: normal; }
 
-/*# sourceMappingURL=../css/perfectPhotography.map */
+/*# sourceMappingURL=perfectPhotography.css.map */
